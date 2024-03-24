@@ -9,15 +9,15 @@ else
 end
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Night Hub",
+	Title = "ONECHAN_HUB",
 	Text = "Loading...",
-	Icon = "rbxassetid://15541504459"
+	Icon = "rbxassetid://16850360522"
 })
 wait(3)
 game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Night Hub",
+	Title = "ONECHAN_HUB",
 	Text = "Loading Complete",
-	Icon = "rbxassetid://15541504459"
+	Icon = "rbxassetid://16679242196"
 })
 
 if taodangosea1 then
