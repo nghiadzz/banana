@@ -1166,23 +1166,23 @@ end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nghiavndeptraivcc/Orion-nhu-cut/main/Orion.Source')))()
 local Window = OrionLib:MakeWindow({
-    Name = "ONECHAN_hub", 
+    Name = "Blox Fruit(ONECHAN_hub)", 
     HidePremium = false,
-    IntroText = "Night Library", 
+    IntroText = "ONECHAN Library", 
     SaveConfig = true, 
-    ConfigFolder = "LMAO"
+    ConfigFolder = "ONECHAN_hub"
 })
 
-function Notify(ONECHAN)
+function Notify(Deo, Skid)
     OrionLib:MakeNotification({
-        Name = "[ONECHANbhubs]",
+        Name = "[ONECHAN]",
         Content = Deo,
         Image = "rbxassetid://16679242196",
-        Time = no skid
+        Time = Skid
     })
 end
 
-local I = Window:MakeTab({Name = "Info", Icon = "rbxassetid://15541504459", PremiumOnly = false })
+local I = Window:MakeTab({Name = "Info", Icon = "rbxassetid://16679242196", PremiumOnly = false })
 local G = Window:MakeTab({Name = "General", Icon = "rbxassetid://15541504459", PremiumOnly = false })
 local ST = Window:MakeTab({Name = "Settings", Icon = "rbxassetid://15541504459", PremiumOnly = false })
 local IQ = Window:MakeTab({Name = "Item & Quest", Icon = "rbxassetid://15541504459", PremiumOnly = false })
@@ -1197,8 +1197,13 @@ local Section = I:AddSection({
 	Name = "Info Owner"
 })
 
+I:AddLabel("nghia")
+I:AddLabel("nghia")
+I:AddLabel("nghia")
+I:AddLabel("nghia")
+
 local Section = I:AddSection({
-	Name = "NO UPDATE"
+	Name = "Update and Discord"
 })
 
 I:AddLabel("Update Use Old Ui")
