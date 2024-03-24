@@ -1183,14 +1183,14 @@ function Notify(Deo, Skid)
 end
 
 local I = Window:MakeTab({Name = "Info", Icon = "rbxassetid://16679242196", PremiumOnly = false })
-local G = Window:MakeTab({Name = "General", Icon = "rbxassetid://15541504459", PremiumOnly = false })
-local ST = Window:MakeTab({Name = "Settings", Icon = "rbxassetid://15541504459", PremiumOnly = false })
-local IQ = Window:MakeTab({Name = "Item & Quest", Icon = "rbxassetid://15541504459", PremiumOnly = false })
-local LC = Window:MakeTab({Name = "LocalPlayer", Icon = "rbxassetid://15541504459", PremiumOnly = false })
-local RD = Window:MakeTab({Name = "Raid & Devil Fruit", Icon = "rbxassetid://15541504459", PremiumOnly = false })
-local SV = Window:MakeTab({Name = "Status and Servers", Icon = "rbxassetid://15541504459", PremiumOnly = false })
-local RC = Window:MakeTab({Name = "Upgrated Race", Icon = "rbxassetid://15541504459", PremiumOnly = false })
-local SE = Window:MakeTab({Name = "Sea Event", Icon = "rbxassetid://15541504459", PremiumOnly = false })
+local G = Window:MakeTab({Name = "General", Icon = "rbxassetid://16679242196", PremiumOnly = false })
+local ST = Window:MakeTab({Name = "Settings", Icon = "rbxassetid://16679242196", PremiumOnly = false })
+local IQ = Window:MakeTab({Name = "Item & Quest", Icon = "rbxassetid://16679242196", PremiumOnly = false })
+local LC = Window:MakeTab({Name = "LocalPlayer", Icon = "rbxassetid://16679242196", PremiumOnly = false })
+local RD = Window:MakeTab({Name = "Raid & Devil Fruit", Icon = "rbxassetid://16679242196", PremiumOnly = false })
+local SV = Window:MakeTab({Name = "Status and Servers", Icon = "rbxassetid://16679242196", PremiumOnly = false })
+local RC = Window:MakeTab({Name = "Upgrated Race", Icon = "rbxassetid://16679242196", PremiumOnly = false })
+local SE = Window:MakeTab({Name = "Sea Event", Icon = "rbxassetid://16679242196", PremiumOnly = false })
 
 
 local Section = I:AddSection({
