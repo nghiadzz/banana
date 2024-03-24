@@ -1094,7 +1094,7 @@ ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.100739375, 0, 0.121457487, 0)
 ImageButton.Size = UDim2.new(0, 60, 0, 60)
-ImageButton.Image = "rbxassetid://16237266234"
+ImageButton.Image = "rbxassetid://16679242196"
 ImageButton.MouseButton1Click:Connect(function()
     game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.End,false,game)
 end)
@@ -1166,19 +1166,19 @@ end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nghiavndeptraivcc/Orion-nhu-cut/main/Orion.Source')))()
 local Window = OrionLib:MakeWindow({
-    Name = "Blox Fruit(Night Hub)", 
+    Name = "ONECHAN_hub", 
     HidePremium = false,
     IntroText = "Night Library", 
     SaveConfig = true, 
-    ConfigFolder = "Night Hub"
+    ConfigFolder = "LMAO"
 })
 
-function Notify(Deo, Skid)
+function Notify(ONECHAN)
     OrionLib:MakeNotification({
-        Name = "[Night Hub]",
+        Name = "[ONECHANbhubs]",
         Content = Deo,
-        Image = "rbxassetid://15541504459",
-        Time = Skid
+        Image = "rbxassetid://16679242196",
+        Time = no skid
     })
 end
 
@@ -1197,13 +1197,8 @@ local Section = I:AddSection({
 	Name = "Info Owner"
 })
 
-I:AddLabel("Owner : ! NightX")
-I:AddLabel("Best Brothers : ! DestroyX & T...")
-I:AddLabel("Best Friends : House Of Blance")
-I:AddLabel("Dev : I Am Alone...")
-
 local Section = I:AddSection({
-	Name = "Update and Discord"
+	Name = "NO UPDATE"
 })
 
 I:AddLabel("Update Use Old Ui")
@@ -1216,7 +1211,7 @@ I:AddButton({
 	Name = "Join My Discord",
 	Callback = function()
       	Notify("Set Link Discord In Your Clipboard...", 5)
-        setclipboard("https://discord.gg/R4xC3t2Xm8")
+        setclipboard("https://discord.gg/hngaming")
   	end    
 })
 
